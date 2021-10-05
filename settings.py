@@ -1,0 +1,21 @@
+WIDTH = 600
+HEIGHT = 600
+NO_OF_CELLS = 9
+
+# COLORS
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+ERROR_RED = (148, 0, 0)
+ASH = (166, 161, 161)
+LIGHTBLUE = (145, 233, 235)
+SELECTION_COLOR = (212, 212, 212)
+GRID_AREA_RED = (255, 0, 0)
+
+# POSITIONS AND SIZES
+gridPos = (75, 100)
+cellSize = 50
+gridSize = cellSize * NO_OF_CELLS
+
+# FONT AND STYLES
+font = "arial"
+fontSize = cellSize // 2
